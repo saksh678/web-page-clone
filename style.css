@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header img {
+    width: 70px;
+}
+header .nav{
+    margin-top: 15px;
+
+}
+header a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+header .search { 
+    margin-top: 15px;
+}
+header .search label{
+    display: flex;
+    }
+header .search i {
+    width:30px ;
+    color: rgb(231,100,187);
+    margin-top: 5px;
+
+}
+header .search input {
+       width: 70px ;
+       height: 25px;
+       background-color: rgb(231, 100, 187);
+       color: white;
+       border-radius: 5px;
+       border: 0px;
+}
+header .search ::placeholder {
+       text-align: center;
+       background-color: rgb(231, 100, 187);
+       color: white;   
+       border-color:rgb(231, 100, 187); 
+}
+.car-button {
+    display: flex;
+    justify-content: center;
+ 
+}
+.car-button button {
+         padding: 10px;
+         border-radius: 20px 20px 20px 20px;    
+         background-color: white;
+         border: none;
+         cursor:pointer;
+         box-shadow: 2px 2px 5px 2px rgb(152, 147, 147);
+         
+    }
+.car-button img {
+    width: 15px;
+    padding-right: 10px;   
+}
+main {
+    display: flex;
+    flex-direction:  row;
+    position: relative;
+   
+}
+main .left{
+    margin-left: 70px;  
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 50px;
+
+}
+main .left h1 {
+    margin-bottom: 5px;
+    font-size: 60px;
+}
+
+main .left p{
+    margin-top:10px;
+    font-size: 20px;
+}
+
+
+main .left .btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+    
+}
+main .left button {
+    margin-bottom: 5px;   
+    padding: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+main .left .btn-1 {
+    background-color:  rgb(231, 100, 187);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+main .left .btn-2 {
+    background-color:  white;
+    color: rgb(231, 100, 187);
+    border-color:rgb(231, 100, 187);
+    border-radius: 5px;
+}
+  .pinkcontainer {
+    position: absolute;
+    z-index: -1;
+    width: 572px;
+    height: 350px;
+    display: flex;
+    color: rgb(231, 210, 225);
+    opacity: 5px;
+    margin-left: 565px;
+   background-color: rgb(231, 210, 225);
+   top: 0px;
+
+}
+
+main .right {
+    position:absolute ;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+main .right button{
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;    
+    background-color: white;
+    border: none;
+    cursor:pointer;
+    box-shadow: 2px 2px 5px 2px rgb(152, 147, 147);
+    margin-right: 2px;
+    margin-top: 80px;
+    z-index: 7;
+    
+}
+
+main .right i{
+    margin-right: 10px;
+    color:rgb(231, 100, 187);
+    
+}
+main .right img{
+    margin-top: 20px;
+    margin-left: 550px;
+    width: 450px;
+    z-index: 8;
+    transform: scaleX(-1);    
+}
+/* ----footer--- */
+ footer {
+    padding: 20px;
+    margin-left:50px;
+    margin-top: 330px;
+    font-family: sans-serif;
+    display: inline-flex;
+}
+footer i{
+    font-size:15px;
+    color: rgb(231,100,187);
+}
+footer p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer img{
+    padding-left: 10px;
+    padding-right:5px;
+    width: 20px;
+    cursor: pointer;
+} 
+/* -----media query---- */
+
+ @media  (max-width :390px) {
+
+   header .nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   }
+}
+ 
+
+
